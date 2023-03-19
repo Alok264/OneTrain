@@ -1,0 +1,32 @@
+<%- include('partials/header') -%>
+<section id="login">
+    <main class="form-signin">
+        <form method="post" action="/signup" class="login-form">
+            <div class="row">
+                <div class="col form-floating">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Name" name="first-name">
+                    <label for="floatingInput" class="name-label">First Name</label>
+                </div>
+                <div class="col form-floating">
+                    <input type="text" class="form-control" id="floatingInput1" placeholder="Kumar" name="last-name">
+                    <label for="floatingInput1" class="name-label">Last Name</label>
+                </div>
+            </div>
+            <div class="form-floating">
+                <input type="email" class="form-control signup-email" id="floatingInput" placeholder="name@example.com" name="email">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control signup-password" id="floatingPassword" placeholder="Password" name="password">
+                <label for="floatingPassword" class="password-label">Password</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control signup-password" id="floatingPassword" placeholder="Password" name="confirm-password">
+                <label for="floatingPassword" class="password-label">Confirm Password</label>
+            </div>
+            <button class="w-100 btn btn-lg btn-success signup-button" type="submit">Sign in</button>
+            <p class="forgot-password">Already a OneTrain user? <a href="/login">Signin/Login here</a></p>
+        </form>
+    </main>
+</section>
+<%- include('partials/footer') -%>

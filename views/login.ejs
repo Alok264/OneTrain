@@ -1,0 +1,27 @@
+<%- include('partials/header') -%>
+<section id="login">
+    <main class="form-signin">
+        <form method="post" action="/login" class="login-form">
+            <img class="mb-4" src="images/Untitled design14.png" alt="">
+            <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+            <div class="form-floating">
+                <input type="email" class="form-control login-email" id="floatingInput" placeholder="name@example.com" name="email">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control login-password" id="floatingPassword" placeholder="Password" name="password">
+                <label for="floatingPassword">Password</label>
+            </div>
+
+            <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-success" type="submit">Sign in</button>
+            <p class="forgot-password">Forgot password? <a href="http://">Click Here</a></p>
+            <p class="forgot-password">New to One Train? <a href="/signup">Signup here</a></p>
+        </form>
+    </main>
+</section>
+<%- include('partials/footer') -%>
