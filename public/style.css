@@ -38,7 +38,6 @@ body{
 .nav-item{
     margin: 0 7px;
     border-radius: 30px;
-    
     cursor: pointer;
     font-family: 'Righteous', cursive;
 }
@@ -908,6 +907,12 @@ label{
     
     .nav-item{
         margin: 0 3rem;
+        padding-left: 2%;
+    }
+    .dropdown-menu{
+        border: 0;
+        border-radius: 30px;
+        width: 98%;
     }
     .host h3{
         font-size: 1.8rem;
@@ -1046,6 +1051,12 @@ label{
     }
     .nav-item{
         margin: 0 3rem;
+        padding-left: 2%;
+    }
+    .dropdown-menu{
+        border: 0;
+        border-radius: 30px;
+        width: 98%;
     }
     .host h3{
         font-size: 1.8rem;
@@ -1328,6 +1339,12 @@ label{
     }
     .nav-item{
         margin: 0 3rem;
+        padding-left: 2%;
+    }
+    .dropdown-menu{
+        border: 0;
+        border-radius: 30px;
+        width: 98%;
     }
     .host h3{
         font-size: 1.8rem;
@@ -1369,29 +1386,57 @@ label{
     .feature-content a{
         font-size: 0.9rem;
     }
+    .more{
+        margin: 10% auto;
+    }
+
+
+    .service-head{
+        margin: 13% auto;
+    }
+    .service-head h1{
+        font-size: 2rem;
+    }
     .service-container {
         margin: 5% 6% 0;
     }
     .service-box {
         padding-left: 5%;
     }
+    .service-content{
+        text-align: center;
+    }
     .service-content h3{
         font-size: 1.3rem;
     }
     .service-content p{
-        font-size: 0.85rem;
+        font-size: 0.9rem;
     }
+
     .info-container{
         margin: 0 6% 4%;
     }
+    .info-card{
+        margin: 8% auto;
+    }
     .info-card-body p{
-        font-size: 0.9rem;
+        font-size: 0.95rem;
+    }
+    
+    .contact{
+        margin: 10% auto;
+    }
+    .footer-img-col{
+        display: none;
     }
     .foot-container{
-        padding: 0 10% 0;
+        padding: 5% 10% 0;
     }
     .footer-content a{
         font-size: 0.9rem;
+    }
+    .info-head{
+        margin: 0 auto 5%;
     }
     .footer-head a h1{
         font-size: 2.1rem;
@@ -1419,6 +1464,16 @@ label{
     .h4{
         font-size: 0.7rem;
     }
+
+    #carouselExampleAutoplaying{
+        width: 140%;
+        position: relative;
+        left: -20%;
+        margin: 0 auto 15%;
+    }
+    .trains-head{
+        margin: 15% auto;
+    }
     .carousel-caption h2{
         font-size: 1rem;
     }
@@ -1428,8 +1483,8 @@ label{
     .carousel-caption a{
         font-size: 0.5rem;
     }
-    .info-more-button{
-        font-size: 0.7rem;
+    .more-button{
+        font-size: 0.9rem;
     }
     .form-signin {
         padding: 4%;
