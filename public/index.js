@@ -22,7 +22,7 @@ $(document).ready(function () {
 
 
 var count = 0;
-var button = $(".more-button").on("click", function(){
+var button = $(".more-button-top").on("click", function(){
   count++;
   if(count%2!=0)
   {
